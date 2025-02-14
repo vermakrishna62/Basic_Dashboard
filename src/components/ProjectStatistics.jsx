@@ -78,7 +78,7 @@ const options = {
       show: false,
       labels: {
         formatter: function (value) {
-          return '$' + value;
+          return 'Rs.' + value + ' Crore';
         }
       }
     },
