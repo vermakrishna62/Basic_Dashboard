@@ -50,13 +50,12 @@ const Sidebar = () => {
         ))}
       </ul>
 
-      <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 px-4 py-1 cursor-pointer">
-  <p className="flex items-center justify-center text-sm font-semibold text-white py-2 px-10 bg-gradient-to-r from-indigo-500 to-violet-600 rounded-full shadow-md hover:shadow-lg hover:scale-105 transition-all duration-300 ease-in-out">
+      <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 px-4 py-1 cursor-pointer w-full max-w-[250px]">
+  <p className="flex items-center justify-center text-sm font-semibold text-white py-2 px-6 sm:px-0 bg-gradient-to-r from-indigo-500 to-violet-600 rounded-full shadow-md hover:shadow-lg hover:scale-105 transition-all duration-300 ease-in-out">
     <span className="text-lg animate-bounce">❓</span>
-    <span className="ml-2 whitespace-nowrap">Need Help?</span>
+    <span className="ml-2 md:inline hidden whitespace-nowrap">Need Help?</span>
   </p>
 </div>
-
     </div>
   );
 };
